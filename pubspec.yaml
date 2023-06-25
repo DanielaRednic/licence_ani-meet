@@ -1,0 +1,45 @@
+name: ani_meet
+description: Socializing app based on anime preferences.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.1
+  flutter_tindercard: ^0.2.0
+  line_icons:
+  flutter_svg: ^2.0.5
+  flutter_custom_clippers: ^1.1.2
+  firebase_core: ^2.13.0
+  firebase_auth: ^4.6.1
+  cloud_firestore: ^4.7.1
+  flutter_chat_ui: ^1.6.6
+  flutter_firebase_chat_core: ^1.6.3
+  jikan_api: ^2.1.0
+  image_picker: ^0.8.6+4
+  carousel_slider: ^4.0.0
+  smooth_page_indicator: ^0.3.0-nullsafety.0
+  firebase_storage: ^11.2.2
+  bubble: ^1.2.1
+  firebase_messaging: ^14.6.2
+  cloud_functions: ^4.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/genre_banners/
+
