@@ -49,10 +49,7 @@ class _ExplorePageState extends State<ExplorePage>
       }
     }
     possibleMatches.shuffle();
-    if(possibleMatches.length <10 ){
-      possibleMatches = possibleMatches.sublist(0,possibleMatches.length);
-    }
-    else{
+    if(possibleMatches.length > 10 ){
       possibleMatches = possibleMatches.sublist(0,10);
     }
     return possibleMatches;
